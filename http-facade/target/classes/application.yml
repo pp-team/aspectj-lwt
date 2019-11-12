@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  kafka:
+    servers: localhost:9092
+  main:
+    allow-bean-definition-overriding: true
+
+sandbox:
+  facade:
+    topic:
+      request: http-facade-request
+      response: http-facade-response
+
+pojoclass:
+  autowiredValue: Hello, I am autowired here

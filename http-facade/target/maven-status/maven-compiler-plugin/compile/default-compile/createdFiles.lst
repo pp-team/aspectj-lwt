@@ -1,0 +1,15 @@
+com\ppy\sandbox\http\controllers\factory\PizzaFourCheese.class
+com\ppy\sandbox\http\controllers\HelloController.class
+com\ppy\sandbox\http\controllers\pojo\PojoClass.class
+com\ppy\sandbox\http\controllers\aspect\MethodCallAspect.class
+com\ppy\sandbox\http\controllers\aspect\MethodClassProxy.class
+com\ppy\sandbox\http\controllers\aspect\MethodClass.class
+com\ppy\sandbox\http\controllers\PojoController.class
+com\ppy\sandbox\http\controllers\PizzaController.class
+com\ppy\sandbox\http\controllers\factory\PizzaMargarita.class
+com\ppy\sandbox\HttpApplication.class
+com\ppy\sandbox\http\controllers\factory\Pizza.class
+com\ppy\sandbox\http\controllers\factory\PizzaFactory.class
+com\ppy\sandbox\http\controllers\KafkaController.class
+com\ppy\sandbox\http\controllers\pojo\PojoService.class
+com\ppy\sandbox\http\controllers\aspect\AnotherMethodClass.class
