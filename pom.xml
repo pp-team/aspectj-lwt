@@ -14,7 +14,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <java.version>11</java.version>
         <spring-boot.version>2.1.9.RELEASE</spring-boot.version>
-        <spring.version>5.2.0.RELEASE</spring.version>
+        <spring.version>5.1.9.RELEASE</spring.version>
         <logback.version>1.2.2</logback.version>
         <mockito.version>1.10.19</mockito.version>
         <junit.version>4.12</junit.version>
@@ -49,7 +49,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
-                <version>5.2.0.RELEASE</version>
+                <version>${spring.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-instrument</artifactId>
-                <version>5.2.1.RELEASE</version>
+                <version>${spring.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -100,12 +100,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <argLine>
-                            -javaagent:${settings.localRepository}\org\springframework\spring-agent\${spring-instrument.version}\spring-agent-${spring-instrument.version}.jar
-                        </argLine>
-                    </configuration>
-                </plugin>
+                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
